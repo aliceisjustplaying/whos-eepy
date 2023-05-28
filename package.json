@@ -1,7 +1,7 @@
 {
   "name": "whos-eepy",
   "version": "1.0.0",
-  "description": "eepy girls (gender-neutral)",
+  "description": "eepy girls",
   "main": "index.js",
   "repository": "git@github.com:bluesky-social/feed-generator.git",
   "author": "alice <aliceisjustplaying@gmail.com>",
