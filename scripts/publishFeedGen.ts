@@ -70,7 +70,8 @@ const run = async () => {
     avatarRef = blobRes.data.blob
   }
 
-  await agent.api.com.atproto.repo.putRecord({
+  // await agent.api.com.atproto.repo.deleteRecord({
+  await agent.api.com.atproto.repo.createRecord({
     repo: agent.session?.did ?? '',
     collection: ids.AppBskyFeedGenerator,
     rkey: recordName,
